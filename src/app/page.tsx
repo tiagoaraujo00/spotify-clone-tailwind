@@ -129,6 +129,34 @@ export default function Home() {
               </button>
             </a>
           </div>
+          <h2 className="font-semibold text-text-2xl mt-10">Made for Tiago</h2>
+          <div className="grid grid-cols-8 gap-4 mt-4">
+            <a href="#" className="bg-white/5 p-3 rounded hover:bg-white/10 flex flex-col gap-2">
+            <Image src="/album.jpg" className="w-full" width={120} height={120} alt="ANTI" />
+            <strong className="font-semibold">Daily Mix 1</strong>
+            <span className="text-xs text-zinc-400">Rihanna</span>
+            </a>
+            <a href="#" className="bg-white/5 p-3 rounded hover:bg-white/10 flex flex-col gap-2">
+            <Image src="/album.jpg" className="w-full" width={120} height={120} alt="ANTI" />
+            <strong className="font-semibold">Daily Mix 1</strong>
+            <span className="text-xs text-zinc-400">Rihanna</span>
+            </a>
+            <a href="#" className="bg-white/5 p-3 rounded hover:bg-white/10 flex flex-col gap-2">
+            <Image src="/album.jpg" className="w-full" width={120} height={120} alt="ANTI" />
+            <strong className="font-semibold">Daily Mix 1</strong>
+            <span className="text-xs text-zinc-400">Rihanna</span>
+            </a>
+            <a href="#" className="bg-white/5 p-3 rounded hover:bg-white/10 flex flex-col gap-2">
+            <Image src="/album.jpg" className="w-full" width={120} height={120} alt="ANTI" />
+            <strong className="font-semibold">Daily Mix 1</strong>
+            <span className="text-xs text-zinc-400">Rihanna</span>
+            </a>
+            <a href="#" className="bg-white/5 p-3 rounded hover:bg-white/10 flex flex-col gap-2">
+            <Image src="/album.jpg" className="w-full" width={120} height={120} alt="ANTI" />
+            <strong className="font-semibold">Daily Mix 1</strong>
+            <span className="text-xs text-zinc-400">Rihanna</span>
+            </a>
+          </div>
         </main>
       </div>
       <footer className="bg-zinc-800 border-t border-zinc-700 p-6">
