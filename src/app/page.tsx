@@ -159,8 +159,20 @@ export default function Home() {
           </div>
         </main>
       </div>
-      <footer className="bg-zinc-800 border-t border-zinc-700 p-6">
-        footer
+      <footer className="bg-zinc-800 border-t border-zinc-700 p-4 flex items-center justify-between">
+        <div className="flex items-center gap-2">
+          <Image src="/album.jpg" className="w-full" width={50} height={50} alt="ANTI" />
+          <div className="flex flex-col">
+            <strong className="font-normal">Consideration</strong>
+            <span className="text-xs text-zinc-400">Rihanna</span>
+          </div>
+        </div>
+        <div className="flex flex-col items-center">
+          <div></div>
+        </div>
+        <div>
+
+        </div>
       </footer>
     </div>
   );
